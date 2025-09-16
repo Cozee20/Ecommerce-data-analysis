@@ -1,0 +1,501 @@
+customer_id,location,gender,signup_date
+1,Ibadan,Male,2020-12-25
+2,Port Harcourt,Female,2022-06-18
+3,Kano,Female,2020-10-07
+4,Port Harcourt,Male,2021-10-28
+5,Port Harcourt,Male,2020-04-02
+6,Abuja,Female,2021-11-02
+7,Kano,Female,2020-03-01
+8,Kano,Female,2021-09-25
+9,Kano,Male,2022-12-10
+10,Port Harcourt,Female,2022-10-25
+11,Ibadan,Female,2021-08-26
+12,Kano,Female,2021-11-12
+13,Enugu,Male,2021-06-17
+14,Port Harcourt,Female,2022-04-17
+15,Abuja,Female,2021-10-06
+16,Ibadan,Male,2020-08-20
+17,Enugu,Female,2021-06-07
+18,Enugu,Female,2020-12-11
+19,Abuja,Male,2022-12-05
+20,Ibadan,Female,2021-06-29
+21,Port Harcourt,Male,2022-03-04
+22,Lagos,Male,2020-09-05
+23,Ibadan,Female,2020-02-16
+24,Abuja,Female,2020-08-01
+25,Enugu,Female,2020-08-26
+26,Port Harcourt,Female,2022-12-15
+27,Ibadan,Male,2020-12-15
+28,Lagos,Female,2020-04-16
+29,Lagos,Male,2022-04-10
+30,Kano,Female,2020-02-17
+31,Kano,Female,2020-12-02
+32,Abuja,Female,2022-11-15
+33,Ibadan,Male,2022-03-14
+34,Ibadan,Female,2020-01-08
+35,Enugu,Female,2021-09-16
+36,Enugu,Female,2021-12-19
+37,Enugu,Female,2020-10-29
+38,Kano,Male,2021-09-30
+39,Ibadan,Female,2020-02-25
+40,Ibadan,Male,2021-12-26
+41,Lagos,Male,2021-06-09
+42,Kano,Male,2021-04-18
+43,Port Harcourt,Male,2020-01-28
+44,Kano,Male,2020-03-18
+45,Port Harcourt,Male,2020-12-30
+46,Lagos,Female,2021-10-27
+47,Abuja,Male,2021-06-09
+48,Ibadan,Male,2021-11-29
+49,Lagos,Male,2022-06-01
+50,Ibadan,Female,2022-10-27
+51,Enugu,Female,2022-10-23
+52,Abuja,Male,2022-07-07
+53,Abuja,Female,2022-01-19
+54,Lagos,Male,2020-12-28
+55,Abuja,Male,2022-03-16
+56,Port Harcourt,Female,2022-01-08
+57,Abuja,Male,2022-11-04
+58,Ibadan,Female,2021-04-29
+59,Ibadan,Female,2020-01-28
+60,Ibadan,Male,2021-12-14
+61,Ibadan,Male,2022-11-28
+62,Port Harcourt,Female,2020-03-26
+63,Kano,Male,2020-05-05
+64,Enugu,Male,2022-03-22
+65,Lagos,Male,2021-06-20
+66,Ibadan,Female,2020-05-24
+67,Abuja,Female,2020-01-25
+68,Ibadan,Male,2020-03-07
+69,Abuja,Female,2020-08-20
+70,Enugu,Female,2020-04-18
+71,Enugu,Female,2020-04-20
+72,Enugu,Female,2020-08-15
+73,Abuja,Female,2020-04-20
+74,Ibadan,Male,2020-02-03
+75,Enugu,Male,2021-09-14
+76,Port Harcourt,Male,2022-01-17
+77,Abuja,Female,2021-08-17
+78,Abuja,Female,2021-02-28
+79,Ibadan,Male,2021-09-04
+80,Abuja,Female,2021-11-22
+81,Abuja,Male,2020-11-10
+82,Enugu,Male,2022-05-26
+83,Ibadan,Male,2021-10-23
+84,Enugu,Female,2020-10-03
+85,Enugu,Female,2021-09-15
+86,Ibadan,Male,2021-05-30
+87,Lagos,Male,2022-04-22
+88,Enugu,Male,2020-12-15
+89,Port Harcourt,Male,2022-04-02
+90,Port Harcourt,Female,2022-01-28
+91,Abuja,Female,2022-06-17
+92,Port Harcourt,Male,2020-08-30
+93,Abuja,Male,2021-06-26
+94,Lagos,Female,2022-11-29
+95,Ibadan,Female,2020-08-16
+96,Ibadan,Male,2021-07-01
+97,Ibadan,Male,2022-07-08
+98,Port Harcourt,Male,2020-01-06
+99,Lagos,Female,2021-04-12
+100,Port Harcourt,Female,2020-03-15
+101,Port Harcourt,Female,2020-01-04
+102,Lagos,Male,2021-10-07
+103,Lagos,Male,2020-04-27
+104,Lagos,Female,2022-05-30
+105,Lagos,Female,2021-05-18
+106,Ibadan,Male,2022-08-04
+107,Kano,Female,2021-07-27
+108,Kano,Female,2020-07-12
+109,Lagos,Male,2022-04-26
+110,Kano,Female,2021-12-15
+111,Kano,Male,2022-11-15
+112,Lagos,Male,2020-06-21
+113,Kano,Male,2020-11-21
+114,Port Harcourt,Male,2022-04-15
+115,Abuja,Male,2021-12-24
+116,Abuja,Male,2020-08-12
+117,Lagos,Male,2021-06-15
+118,Ibadan,Female,2020-04-22
+119,Lagos,Male,2020-05-19
+120,Ibadan,Male,2021-07-12
+121,Abuja,Female,2020-01-01
+122,Lagos,Female,2020-03-30
+123,Enugu,Female,2021-10-15
+124,Port Harcourt,Male,2020-11-15
+125,Kano,Female,2020-05-18
+126,Ibadan,Male,2022-04-24
+127,Enugu,Male,2020-09-15
+128,Kano,Male,2022-06-20
+129,Kano,Male,2021-11-20
+130,Lagos,Female,2020-01-10
+131,Kano,Female,2020-09-17
+132,Port Harcourt,Male,2020-06-20
+133,Enugu,Male,2022-06-16
+134,Kano,Male,2020-01-13
+135,Lagos,Female,2020-11-16
+136,Port Harcourt,Male,2020-11-24
+137,Abuja,Male,2022-02-23
+138,Enugu,Female,2022-02-15
+139,Kano,Female,2022-06-29
+140,Lagos,Male,2020-11-13
+141,Abuja,Female,2020-08-23
+142,Abuja,Female,2020-11-29
+143,Ibadan,Male,2021-01-10
+144,Port Harcourt,Female,2021-08-10
+145,Kano,Male,2021-05-27
+146,Lagos,Female,2022-07-06
+147,Ibadan,Male,2022-05-22
+148,Port Harcourt,Male,2020-09-26
+149,Ibadan,Male,2022-03-08
+150,Enugu,Female,2021-12-25
+151,Port Harcourt,Male,2020-01-05
+152,Port Harcourt,Female,2022-04-30
+153,Kano,Male,2020-03-18
+154,Port Harcourt,Male,2021-07-27
+155,Ibadan,Female,2020-05-11
+156,Port Harcourt,Male,2021-08-23
+157,Kano,Male,2022-12-01
+158,Kano,Female,2020-03-29
+159,Enugu,Male,2021-02-05
+160,Ibadan,Male,2020-10-22
+161,Abuja,Male,2021-09-07
+162,Abuja,Male,2022-03-10
+163,Port Harcourt,Female,2021-02-25
+164,Enugu,Female,2022-11-12
+165,Lagos,Male,2021-07-28
+166,Port Harcourt,Female,2020-05-22
+167,Enugu,Male,2022-09-19
+168,Ibadan,Female,2021-10-26
+169,Ibadan,Male,2020-05-24
+170,Ibadan,Male,2022-10-03
+171,Ibadan,Male,2021-05-17
+172,Ibadan,Male,2022-03-31
+173,Enugu,Male,2020-04-13
+174,Enugu,Male,2022-11-28
+175,Kano,Female,2020-07-16
+176,Abuja,Male,2021-08-01
+177,Ibadan,Female,2021-01-25
+178,Lagos,Male,2021-07-07
+179,Enugu,Female,2022-11-04
+180,Lagos,Female,2021-04-22
+181,Lagos,Female,2022-07-11
+182,Lagos,Male,2021-02-23
+183,Kano,Male,2020-06-05
+184,Enugu,Female,2021-07-03
+185,Lagos,Male,2022-10-17
+186,Ibadan,Female,2022-09-23
+187,Port Harcourt,Male,2022-08-08
+188,Lagos,Female,2020-10-15
+189,Kano,Female,2020-07-14
+190,Enugu,Male,2021-08-20
+191,Kano,Female,2021-05-31
+192,Lagos,Male,2022-05-14
+193,Enugu,Female,2022-03-16
+194,Port Harcourt,Female,2022-03-25
+195,Lagos,Male,2020-08-15
+196,Kano,Male,2020-08-03
+197,Abuja,Male,2022-08-05
+198,Ibadan,Female,2020-01-15
+199,Kano,Male,2020-02-16
+200,Enugu,Female,2020-11-19
+201,Lagos,Female,2022-04-23
+202,Ibadan,Male,2020-05-09
+203,Lagos,Male,2020-04-04
+204,Enugu,Female,2021-09-18
+205,Lagos,Female,2022-01-24
+206,Abuja,Male,2022-03-04
+207,Ibadan,Male,2020-03-09
+208,Ibadan,Male,2020-01-11
+209,Enugu,Male,2022-05-21
+210,Abuja,Male,2021-07-03
+211,Kano,Female,2021-12-12
+212,Lagos,Female,2020-01-23
+213,Port Harcourt,Female,2022-03-25
+214,Lagos,Female,2020-12-11
+215,Lagos,Male,2020-10-28
+216,Kano,Male,2020-12-28
+217,Lagos,Male,2021-01-30
+218,Abuja,Female,2020-08-05
+219,Abuja,Female,2020-05-20
+220,Ibadan,Male,2022-08-15
+221,Enugu,Male,2022-09-11
+222,Port Harcourt,Female,2022-09-19
+223,Lagos,Female,2022-04-07
+224,Lagos,Male,2021-11-13
+225,Kano,Male,2022-09-30
+226,Enugu,Female,2020-12-21
+227,Abuja,Male,2022-10-04
+228,Port Harcourt,Male,2022-06-06
+229,Ibadan,Male,2020-05-06
+230,Abuja,Female,2022-10-05
+231,Enugu,Female,2021-08-26
+232,Ibadan,Female,2022-10-10
+233,Kano,Female,2020-02-20
+234,Kano,Female,2022-11-18
+235,Lagos,Female,2022-02-17
+236,Enugu,Female,2022-03-24
+237,Port Harcourt,Male,2021-02-23
+238,Ibadan,Male,2022-09-09
+239,Abuja,Male,2022-04-04
+240,Enugu,Male,2022-10-21
+241,Enugu,Male,2021-07-20
+242,Kano,Male,2021-01-05
+243,Lagos,Male,2022-07-24
+244,Lagos,Female,2021-10-22
+245,Ibadan,Female,2022-08-26
+246,Kano,Male,2020-07-20
+247,Enugu,Male,2020-11-08
+248,Port Harcourt,Female,2020-04-26
+249,Kano,Male,2022-07-25
+250,Ibadan,Male,2021-07-28
+251,Ibadan,Female,2020-08-31
+252,Kano,Male,2021-06-20
+253,Ibadan,Female,2020-03-15
+254,Kano,Male,2021-01-20
+255,Abuja,Female,2021-04-19
+256,Kano,Female,2021-02-21
+257,Kano,Female,2020-12-12
+258,Ibadan,Male,2021-10-01
+259,Ibadan,Female,2022-07-27
+260,Lagos,Male,2022-08-12
+261,Lagos,Male,2022-05-25
+262,Abuja,Male,2022-02-01
+263,Lagos,Male,2021-10-25
+264,Kano,Female,2020-01-25
+265,Ibadan,Female,2021-12-10
+266,Lagos,Male,2020-06-25
+267,Lagos,Male,2020-10-11
+268,Abuja,Female,2020-03-03
+269,Enugu,Male,2022-09-29
+270,Abuja,Female,2021-10-23
+271,Kano,Male,2021-10-27
+272,Ibadan,Male,2020-06-04
+273,Abuja,Female,2022-12-08
+274,Lagos,Male,2022-08-24
+275,Ibadan,Female,2022-04-28
+276,Ibadan,Male,2021-11-19
+277,Lagos,Male,2020-05-27
+278,Abuja,Male,2020-12-07
+279,Lagos,Female,2021-04-20
+280,Enugu,Male,2022-12-22
+281,Ibadan,Male,2021-07-14
+282,Port Harcourt,Male,2020-11-22
+283,Port Harcourt,Male,2022-09-16
+284,Kano,Female,2020-08-02
+285,Lagos,Female,2021-03-10
+286,Lagos,Male,2022-08-09
+287,Kano,Female,2021-12-23
+288,Kano,Male,2020-02-01
+289,Kano,Male,2021-10-31
+290,Ibadan,Male,2020-10-11
+291,Enugu,Female,2021-03-04
+292,Lagos,Female,2020-10-12
+293,Ibadan,Female,2022-11-08
+294,Kano,Female,2020-01-18
+295,Lagos,Female,2022-02-07
+296,Ibadan,Female,2021-08-12
+297,Enugu,Female,2022-10-06
+298,Ibadan,Female,2020-07-12
+299,Enugu,Female,2021-05-16
+300,Kano,Male,2022-09-14
+301,Enugu,Female,2020-04-23
+302,Lagos,Female,2022-08-04
+303,Kano,Female,2022-04-10
+304,Lagos,Female,2022-07-13
+305,Port Harcourt,Female,2020-02-24
+306,Abuja,Female,2022-03-10
+307,Enugu,Female,2022-02-16
+308,Abuja,Female,2020-06-10
+309,Abuja,Female,2020-03-27
+310,Enugu,Female,2020-02-24
+311,Kano,Female,2022-10-28
+312,Port Harcourt,Male,2022-04-12
+313,Lagos,Male,2020-11-08
+314,Ibadan,Female,2022-01-28
+315,Lagos,Female,2021-03-18
+316,Ibadan,Male,2020-11-23
+317,Lagos,Female,2022-12-13
+318,Enugu,Male,2022-01-30
+319,Port Harcourt,Male,2021-08-01
+320,Ibadan,Male,2022-12-10
+321,Kano,Male,2022-10-03
+322,Lagos,Male,2020-04-05
+323,Lagos,Female,2022-03-24
+324,Ibadan,Male,2021-05-05
+325,Kano,Female,2021-03-27
+326,Kano,Female,2020-06-13
+327,Enugu,Male,2020-06-30
+328,Enugu,Male,2021-04-13
+329,Enugu,Female,2022-06-28
+330,Enugu,Male,2022-01-04
+331,Enugu,Male,2022-04-02
+332,Enugu,Female,2022-08-01
+333,Port Harcourt,Female,2020-01-07
+334,Kano,Male,2020-11-25
+335,Enugu,Female,2022-02-13
+336,Kano,Male,2020-05-30
+337,Kano,Male,2020-05-26
+338,Abuja,Male,2022-07-03
+339,Port Harcourt,Female,2021-11-30
+340,Enugu,Female,2020-03-22
+341,Lagos,Female,2021-05-28
+342,Ibadan,Female,2022-03-25
+343,Lagos,Female,2021-12-09
+344,Port Harcourt,Male,2022-01-15
+345,Ibadan,Male,2022-10-19
+346,Port Harcourt,Male,2021-12-07
+347,Kano,Male,2021-04-15
+348,Ibadan,Female,2021-01-30
+349,Kano,Male,2020-09-17
+350,Lagos,Female,2022-03-15
+351,Lagos,Male,2022-07-22
+352,Ibadan,Female,2022-06-23
+353,Ibadan,Female,2022-12-12
+354,Enugu,Male,2022-07-28
+355,Port Harcourt,Male,2022-05-03
+356,Enugu,Male,2021-08-15
+357,Port Harcourt,Male,2021-12-14
+358,Enugu,Female,2021-09-23
+359,Kano,Male,2020-02-28
+360,Ibadan,Male,2020-05-07
+361,Lagos,Female,2022-01-05
+362,Port Harcourt,Male,2021-12-21
+363,Port Harcourt,Male,2021-06-09
+364,Lagos,Male,2021-06-04
+365,Enugu,Male,2021-07-05
+366,Port Harcourt,Male,2020-08-24
+367,Kano,Female,2021-05-08
+368,Ibadan,Male,2020-01-04
+369,Lagos,Male,2021-10-27
+370,Ibadan,Male,2021-03-17
+371,Port Harcourt,Male,2020-01-29
+372,Port Harcourt,Male,2021-09-01
+373,Lagos,Female,2022-03-15
+374,Kano,Male,2020-03-15
+375,Abuja,Female,2022-04-17
+376,Lagos,Female,2020-05-07
+377,Abuja,Male,2020-02-11
+378,Enugu,Male,2020-02-10
+379,Abuja,Male,2022-07-22
+380,Kano,Male,2020-02-03
+381,Enugu,Female,2022-11-06
+382,Abuja,Male,2022-09-24
+383,Enugu,Male,2021-08-10
+384,Abuja,Male,2020-12-07
+385,Kano,Male,2020-01-27
+386,Abuja,Male,2021-10-07
+387,Abuja,Male,2021-12-31
+388,Abuja,Female,2020-06-16
+389,Lagos,Female,2021-09-01
+390,Lagos,Male,2020-09-24
+391,Lagos,Male,2022-03-31
+392,Kano,Male,2021-03-30
+393,Enugu,Female,2022-06-24
+394,Port Harcourt,Male,2022-07-10
+395,Abuja,Female,2022-09-07
+396,Abuja,Male,2021-12-02
+397,Kano,Male,2021-09-25
+398,Abuja,Male,2020-05-09
+399,Lagos,Male,2022-10-16
+400,Port Harcourt,Female,2022-03-29
+401,Ibadan,Female,2021-11-23
+402,Abuja,Male,2022-03-04
+403,Lagos,Male,2020-01-29
+404,Ibadan,Female,2020-05-28
+405,Port Harcourt,Female,2020-01-11
+406,Ibadan,Female,2021-11-06
+407,Lagos,Female,2020-07-05
+408,Enugu,Male,2022-03-17
+409,Enugu,Female,2022-01-13
+410,Ibadan,Male,2020-04-07
+411,Kano,Female,2020-02-24
+412,Ibadan,Female,2021-09-14
+413,Abuja,Female,2021-10-25
+414,Abuja,Female,2022-01-27
+415,Enugu,Female,2021-02-09
+416,Kano,Male,2020-03-09
+417,Lagos,Male,2022-01-20
+418,Abuja,Female,2022-08-15
+419,Enugu,Female,2020-12-30
+420,Port Harcourt,Male,2021-04-26
+421,Enugu,Female,2020-07-19
+422,Abuja,Female,2020-06-02
+423,Abuja,Male,2020-03-13
+424,Enugu,Female,2021-12-13
+425,Lagos,Female,2020-10-22
+426,Ibadan,Male,2022-11-06
+427,Abuja,Male,2020-03-01
+428,Enugu,Male,2022-07-27
+429,Enugu,Female,2020-02-11
+430,Kano,Male,2020-01-25
+431,Ibadan,Male,2022-11-28
+432,Port Harcourt,Male,2020-05-10
+433,Lagos,Male,2020-04-17
+434,Port Harcourt,Male,2020-06-20
+435,Ibadan,Male,2020-04-11
+436,Ibadan,Female,2022-05-15
+437,Ibadan,Female,2021-06-07
+438,Port Harcourt,Male,2020-10-01
+439,Ibadan,Male,2022-12-03
+440,Enugu,Male,2022-03-27
+441,Port Harcourt,Female,2022-08-14
+442,Ibadan,Female,2022-11-06
+443,Enugu,Female,2020-11-25
+444,Kano,Female,2020-01-12
+445,Ibadan,Female,2020-08-03
+446,Port Harcourt,Female,2020-12-04
+447,Abuja,Female,2021-10-22
+448,Ibadan,Female,2021-01-08
+449,Abuja,Female,2022-09-02
+450,Enugu,Male,2021-12-10
+451,Kano,Male,2021-04-10
+452,Lagos,Male,2021-05-03
+453,Kano,Male,2020-02-16
+454,Ibadan,Female,2022-02-16
+455,Abuja,Female,2022-11-05
+456,Abuja,Male,2021-12-11
+457,Port Harcourt,Female,2021-02-04
+458,Abuja,Male,2022-09-07
+459,Port Harcourt,Female,2020-09-06
+460,Enugu,Male,2021-01-25
+461,Lagos,Female,2020-11-30
+462,Ibadan,Female,2021-09-20
+463,Port Harcourt,Male,2020-05-16
+464,Lagos,Female,2022-06-01
+465,Abuja,Male,2021-11-18
+466,Abuja,Male,2022-04-06
+467,Lagos,Male,2021-12-27
+468,Abuja,Male,2021-08-16
+469,Enugu,Female,2022-09-16
+470,Enugu,Female,2021-01-06
+471,Lagos,Female,2022-07-23
+472,Port Harcourt,Male,2022-09-21
+473,Port Harcourt,Female,2021-02-05
+474,Lagos,Male,2021-09-06
+475,Port Harcourt,Female,2022-09-21
+476,Port Harcourt,Female,2021-09-11
+477,Enugu,Female,2020-07-06
+478,Port Harcourt,Male,2020-05-10
+479,Kano,Female,2022-03-15
+480,Ibadan,Female,2022-07-24
+481,Abuja,Male,2022-09-12
+482,Kano,Female,2020-07-01
+483,Port Harcourt,Male,2022-09-09
+484,Enugu,Female,2020-12-29
+485,Lagos,Male,2020-02-08
+486,Port Harcourt,Male,2021-05-11
+487,Enugu,Female,2022-09-08
+488,Ibadan,Male,2022-07-09
+489,Port Harcourt,Male,2021-12-22
+490,Lagos,Male,2020-01-16
+491,Enugu,Male,2021-05-07
+492,Enugu,Male,2022-06-12
+493,Enugu,Male,2020-11-06
+494,Ibadan,Female,2022-01-08
+495,Port Harcourt,Male,2021-06-29
+496,Ibadan,Male,2021-02-17
+497,Abuja,Female,2020-09-07
+498,Abuja,Female,2022-01-28
+499,Port Harcourt,Female,2022-11-28
+500,Ibadan,Female,2022-03-24
