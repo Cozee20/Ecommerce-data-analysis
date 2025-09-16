@@ -21,8 +21,6 @@ import random
 def random_number():
     return random.randint(1000, 9999)
 
-
-
 for col in combined_df.columns:
     combined_df[col] = combined_df[col].apply(lambda x: random_number() if pd.isnull(x) else x)
 
