@@ -32,7 +32,6 @@ print("After handling missing values and duplicates:")
 print(combined_df)
 combined_df['Revenue'] = combined_df['price'] * combined_df['quantity']
 print(combined_df)
-# Merge df1 and df2 on a common column, e.g. "ID"
 df1 = pd.read_csv('customers.csv')
 df2 = pd.read_csv('sales.csv')
 merged12 = pd.merge(df1, df2, on=("customer_id"), how='inner')
