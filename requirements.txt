@@ -1,0 +1,12 @@
+v1.0 →  Project setup complete
+v2.0 →  Data cleaning complete
+v3.0 →  Data integration & basic analysis complete
+ 
+ Daily Objectives:
+Day 1 – Project Setup & Data Familiarization
+Day 2 – Data Cleaning 
+Day 3 – Data Integration & Basic Analysis
+Day 4 – Advanced Insights (RFM Analysis) 
+Day 5 – Visualization 
+Day 6 – Reporting & Automation
+Day 7 – Final Polish & Submission 
