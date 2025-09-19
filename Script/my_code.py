@@ -38,7 +38,7 @@ merged12 = pd.merge(df1, df2, on=("customer_id"), how='inner')
 df3 = pd.read_csv('products.csv')
 final_merged = pd.merge(merged12, df3, on=(["product_id", "price"]), how='inner')
 print(final_merged)
-final_merged.to_csv("master_dataset.csv", index=False)
+final_merged.to_csv("master_dataset.csv", index=True)
 change = final_merged.groupby('customer_id')['revenue'].sum().reset_index()
 change.columns = ['customer_id', 'customer_lifetime_value']
 revenue_by_product = final_merged.groupby('product_id')['revenue'].sum().reset_index()
