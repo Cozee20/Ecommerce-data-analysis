@@ -8,6 +8,7 @@ df3 = pd.read_csv('products.csv')
 files = ['customers.csv', 'products.csv', 'sales.csv']
 df_list = [pd.read_csv(file) for file in files]
 combined_df = pd.concat(df_list, ignore_index=True)
+#find missing values
 missing_counts = combined_df.isnull().sum()
 missing_columns = missing_counts[missing_counts > 0]
 missing_counts = combined_df.isnull().sum()
@@ -17,13 +18,14 @@ print("Columns with missing values and their counts:")
 print(missing_columns)
 for col in combined_df.columns:
     combined_df[col] = combined_df[col].apply(lambda x: random_number() if pd.isnull(x) else x)
-
+#check for duplicates
 for col in combined_df.columns:
         duplicate_count = combined_df[col].duplicated().sum()
         if duplicate_count > 0:
             print(f"  Column '{col}' has {duplicate_count} duplicate values.")
         else:
             print(f"  Column '{col}' has no duplicates.")
+#Handle duplicates
 for col in combined_df.columns:
     duplicate_mask = combined_df[col].duplicated()
     combined_df.loc[duplicate_mask, col] = [random_number() for _ in range(duplicate_mask.sum())]#
@@ -31,6 +33,7 @@ print("After handling missing values and duplicates:")
 print(combined_df)
 combined_df['Revenue'] = combined_df['price'] * combined_df['quantity']
 print(combined_df)
+#Merge datasets and perform analysis
 merged12 = pd.merge(df1, df2, on=("customer_id"), how='inner')
 final_merged = pd.merge(merged12, df3, on=(["product_id", "price"]), how='inner')
 print(final_merged)
@@ -50,6 +53,7 @@ print("Revenue by Product:")
 print(revenue_by_product)
 final_merged['signup_date'] = pd.to_datetime(final_merged['signup_date'])
 final_merged['year_month'] = final_merged['signup_date'].dt.to_period('M').astype(str)
+# Created a pivot table to show monthly revenue
 ptable = pd.pivot_table(final_merged, values='revenue', index='year_month', aggfunc='sum', fill_value=0)    
 print("Pivot Table - Monthly Revenue:")
 print(ptable)
