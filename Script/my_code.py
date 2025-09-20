@@ -52,6 +52,12 @@ print("Revenue by Supplier:")
 print(revenue_by_supplier)
 print("Revenue by Product:")
 print(revenue_by_product)
+final_merged['signup_date'] = pd.to_datetime(final_merged['signup_date'])
+final_merged['year_month'] = final_merged['signup_date'].dt.to_period('M').astype(str)
+ptable = pd.pivot_table(final_merged, values='revenue', index='year_month', aggfunc='sum', fill_value=0)    
+print("Pivot Table - Monthly Revenue:")
+print(ptable)
+
 
 
 
