@@ -1,5 +1,7 @@
 import pandas as pd
 import random
+import matplotlib.pyplot as plt
+import seaborn as sns
 def random_number():
     return random.randint(1000, 9999)
 df1 = pd.read_csv('customers.csv')
@@ -94,6 +96,20 @@ def segment_customer(row):
 rfm["Segment"] = rfm.apply(segment_customer, axis=1)
 print("RFM Segmentation:")
 print(rfm.head(10))  
-       
+heatmap_data = final_merged.pivot_table(index='category', columns='location', values='revenue', aggfunc='sum', fill_value=0)
 
-
+plt.figure(figsize=(12, 6))
+sns.lineplot(data=final_merged, x='year_month', y='revenue', palette='viridis')
+plt.title('Monthly Revenue')
+plt.xticks(rotation=45)
+plt.show()
+plt.figure(figsize=(12, 6))
+sns.barplot(data=final_merged, x='category', y='supplier', palette='viridis')
+plt.title('Category x Supplier')
+plt.xticks(rotation=45)
+plt.show()
+plt.figure(figsize=(12, 6))
+sns.heatmap(heatmap_data, cmap='viridis', annot=True, fmt="d")
+plt.title('Location x Category')
+plt.xticks(rotation=90)
+plt.show()
