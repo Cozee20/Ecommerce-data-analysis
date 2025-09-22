@@ -57,7 +57,43 @@ final_merged['year_month'] = final_merged['signup_date'].dt.to_period('M').astyp
 ptable = pd.pivot_table(final_merged, values='revenue', index='year_month', aggfunc='sum', fill_value=0)    
 print("Pivot Table - Monthly Revenue:")
 print(ptable)
-
-
+df = pd.read_csv("master_dataset.csv")
+df["timestamp"] = pd.to_datetime(df["timestamp"]) 
+backend_date = df["timestamp"].max() + pd.Timedelta(days=1)
+rfm = df.groupby("customer_id").agg({
+    "timestamp": lambda x: (backend_date - x.max()).days,  
+    "sale_id": "nunique",                                  
+    "revenue": "sum"                                      
+})
+rfm.rename(columns={
+    "timestamp": "Recency",
+    "sale_id": "Frequency",
+    "revenue": "Monetary"
+}, inplace=True)
+rfm["R_score"] = pd.qcut(rfm["Recency"], 5, labels=[5, 4, 3, 2, 1])
+rfm["F_score"] = pd.qcut(rfm["Frequency"], 5, labels=[1, 2, 3, 4, 5])
+rfm["M_score"] = pd.qcut(rfm["Monetary"], 5, labels=[1, 2, 3, 4, 5])
+rfm["RFM_Score"] = (
+    rfm["R_score"].astype(str) + 
+    rfm["F_score"].astype(str) + 
+    rfm["M_score"].astype(str)
+)
+def segment_customer(row):
+    r = int(row["R_score"])
+    if row["RFM_Score"] == "555":
+        return "VIP"
+    elif r == 5:
+        return "ACTIVE"
+    elif r == 1:
+        return "AT_RISK"
+    elif r < 1: 
+        return "LOST"
+    else:
+        return "OTHERS"
+ 
+rfm["Segment"] = rfm.apply(segment_customer, axis=1)
+print("RFM Segmentation:")
+print(rfm.head(10))  
+       
 
 
