@@ -1,7 +1,6 @@
 v1.0 →  Project setup complete
 v2.0 →  Data cleaning complete
-v3.0 →  Data integration & basic analysis complete
- 
+v3.0 →  final version
  Daily Objectives:
 Day 1 – Project Setup & Data Familiarization
 Day 2 – Data Cleaning 
